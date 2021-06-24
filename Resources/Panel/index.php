@@ -1,17 +1,17 @@
 <?php
 /* Site Data */
-$site_name        = "DK VPS";
+$site_name        = "MUGIWARA-VPS VPS";
 $site_description = "Premium VPN/SSH/SSL Accounts Fast And Reliable Servers";
 $site_template    = "flatly"; // (flatly, darkly, sketchy, lumen, materia)
 $site_ip_address = "serverip"; // set site ip
-$site_paypal = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5MSCPA9T748GL"; // set site paypal donate link
-$site_contact = "https://m.facebook.com/joash.singh.90"; // set site contact us link
+$site_paypal = "https://www.paypal.com"; // set site paypal donate link
+$site_contact = "https://t.me/LUFFYxSENPAI"; // set site contact us link
 $daily_limit_user = "90"; // set daily limit
 
 
 /* Server Data */
 /* Format: Server_Name, IP_Address, Root_Pass, Account_Validity */
-/* Example: 1=>array(1=>"DopeKid Server 1","123.456.789","DopeKid","5"), */
+/* Example: 1=>array(1=>"LUFFYxSENPAI Server 1","123.456.789","LUFFYxSENPAI","5"), */
 
 $server_lists_array=array(
 			1=>array(1=>"servername","serverip","serverpass","5"),
