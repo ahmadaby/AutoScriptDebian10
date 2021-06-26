@@ -20,6 +20,7 @@ green='\e[0;32m'
 NC='\e[0m'
 
 # Requirement
+apt-get install unzip 
 apt update -y
 apt upgrade -y
 update-grub
