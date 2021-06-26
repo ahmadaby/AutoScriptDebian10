@@ -10,7 +10,7 @@ echo "0 0 * * * root /usr/local/bin/xp-vless" > /etc/cron.d/expire_vless
 
 cd /usr/local/bin
 wget -O premium-script.zip "https://raw.githubusercontent.com/SasukexSakura/AutoScriptDebian10/main/Resources/Menu/premium-script.zip"
-unzip premium-script.zip
+tar -xvf premium-script.zip
 rm -f premium-script.zip
 
 cp /usr/local/bin/menu /usr/bin/menu
