@@ -23,7 +23,7 @@ $port_ssh= '22'; 		                // SSH Ports
 $port_dropbear= '109, 143'; 	         	// Dropbear Ports
 $port_ssl= '442';                               // SSL Ports
 $port_squid= '3128, 8080';        	       	// Squid Ports
-$ovpn_client= ''.$hosts.'/Dopekid.ovpn';        // OpenVPN Client Config
+$ovpn_client= ''.$hosts.'/LUFFYxSENPAI.ovpn';        // OpenVPN Client Config
 
 function trthe($Bajm)
 { 
