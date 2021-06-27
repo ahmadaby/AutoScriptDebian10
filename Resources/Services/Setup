@@ -13,8 +13,8 @@ ver=$VERSION_ID
 
 # Stunnel Cert Info
 country=ID
-state=Africa
-locality=Durban
+state=Asia
+locality=Kuala_Lumpur
 organization=MUGIWARAVPN
 organizationalunit=MUGIWARAVPN
 commonname=MUGIWARAVPN
@@ -80,7 +80,7 @@ apt -y install wget curl
 apt-get -y install libio-pty-perl libauthen-pam-perl apt-show-versions libnet-ssleay-perl
 
 # Set System Time
-ln -fs /usr/share/zoneinfo/Malaysia/Kuala Lumpur/etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur/etc/localtime
 
 # Set Sshd
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
@@ -266,7 +266,7 @@ systemctl start openvpn
 /etc/init.d/openvpn status
 
 # Openvpn Config
-cat > /home/vps/public_html/Dopekid.ovpn <<-END
+cat > /home/vps/public_html/LUFFYxSENPAI.ovpn <<-END
 # OpenVPN Configuration By Dopekid
 
 client
