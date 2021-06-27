@@ -1,6 +1,6 @@
 <?php
 /* Site Data */
-$site_name        = "MUGIWARA-VPS VPS";
+$site_name        = "MUGIWARA-VPS";
 $site_description = "Premium VPN/SSH/SSL Accounts Fast And Reliable Servers";
 $site_template    = "flatly"; // (flatly, darkly, sketchy, lumen, materia)
 $site_ip_address = "serverip"; // set site ip
