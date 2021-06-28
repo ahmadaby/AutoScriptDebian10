@@ -266,7 +266,7 @@ systemctl start openvpn
 /etc/init.d/openvpn status
 
 # Openvpn Config
-cat > /home/vps/public_html/SasukexSakura.ovpn <<-END
+cat > /home/vps/public_html/LUFFYxSENPAI.ovpn <<-END
 # OpenVPN Configuration By LUFFY × SENPAI
 
 client
