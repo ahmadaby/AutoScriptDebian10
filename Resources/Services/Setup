@@ -294,7 +294,7 @@ pull
 
 END
 echo '<ca>' >> /home/vps/public_html/LUFFYxSENPAI.ovpn
-cat /etc/openvpn/keys/ca.crt >> /home/vps/public_html/Dopekid.ovpn
+cat /etc/openvpn/keys/ca.crt >> /home/vps/public_html/LUFFYxSENPAI.ovpn
 echo '</ca>' >> /home/vps/public_html/LUFFYxSENPAI.ovpn
 
 # Install Fail2ban
