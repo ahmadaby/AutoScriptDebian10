@@ -179,7 +179,7 @@ refresh_pattern ^ftp: 1440 20% 10080
 refresh_pattern ^gopher: 1440 0% 1440
 refresh_pattern -i (/cgi-bin/|\?) 0 0% 0
 refresh_pattern . 0 20% 4320
-visible_hostname Dopekid
+visible_hostname LUFFY × SENPAI
 END
 sed -i $MYIP2 /etc/squid/squid.conf
 
@@ -267,7 +267,7 @@ systemctl start openvpn
 
 # Openvpn Config
 cat > /home/vps/public_html/LUFFYxSENPAI.ovpn <<-END
-# OpenVPN Configuration By Dopekid
+# OpenVPN Configuration By LUFFY × SENPAI
 
 client
 dev tun
