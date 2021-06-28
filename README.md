@@ -26,7 +26,7 @@ apt install -y screen wget && wget https://raw.githubusercontent.com/SasukexSaku
 
 - Openvpn Monitor - http://VPSIP:89/
 
-- OVPN Config - http://VPSIP/SasukexSakura.ovpn
+- OVPN Config - http://VPSIP/LUFFYxSENPAI.ovpn
 
 
 ### Service and Port Informations:
