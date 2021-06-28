@@ -110,7 +110,7 @@ echo "   - IPtables                : [ON]"  | tee -a log-install.txt
 echo "   - Auto-Reboot             : [OFF]"  | tee -a log-install.txt
 echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Webmin Login Page       : http://$MYIP:10000" | tee -a log-install.txt
-echo "   - Download OpenVPN Config : http://$MYIP/LUFFYxSENPAI.ovpn" | tee -a log-install.txt
+echo "   - Download OpenVPN Config : http://$MYIP/SasukexSakura.ovpn" | tee -a log-install.txt
 echo "   - Simple OVPN & SSH Panel : http://$MYIP/" | tee -a log-install.txt
 echo "   - OpenVPN Monitor Webpage : http://$MYIP:89/" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
