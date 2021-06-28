@@ -60,6 +60,6 @@ cd
 echo " "
 echo " "
 echo "PREMIUM SCRIPT SUCCESSFULLY INSTALLED!"
-echo "SCRIPT BY MUGIWARA-VPN"
+echo "SCRIPT BY LUFFYxSENPAI"
 echo "PLEASE WAIT..."
 echo " "
