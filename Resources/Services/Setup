@@ -13,12 +13,12 @@ ver=$VERSION_ID
 
 # Stunnel Cert Info
 country=ID
-state=Africa
-locality=Durban
-organization=DopekidVPN
-organizationalunit=DopekidVPN
-commonname=DopekidVPN
-email=joashsingh14@gmail.com
+state=Asia
+locality=Kuala Lumpur
+organization=MuGiWaRaVPN
+organizationalunit=MuGiWaRaVPN
+commonname=MuGiWaRaVPN
+t.me/LUFFYxSENPAI
 
 # Password Setup
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/SasukexSakura/AutoScriptDebian10/main/Resources/Other/password"
