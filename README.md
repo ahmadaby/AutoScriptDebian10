@@ -72,10 +72,10 @@ V2ray TLS Uses Cloudflare Domain
 Make Domain With VPSIP On Cloudflare
 Enter Domain On Script Install
 
-### Need Script Access ?
-Digital Ocean | Linode VPS Recommended
-Contact Me Facebook or Telegram 
 
-- Telegram: https://t.me/LUFFYxSENPAI
+
+
+
+
 
 
