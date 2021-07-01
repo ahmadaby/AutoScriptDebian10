@@ -80,7 +80,7 @@ apt -y install wget curl
 apt-get -y install libio-pty-perl libauthen-pam-perl apt-show-versions libnet-ssleay-perl
 
 # Set System Time
-ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur/etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Kuala Lumpur/etc/localtime
 
 # Set Sshd
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
