@@ -13,12 +13,12 @@ ver=$VERSION_ID
 
 # Stunnel Cert Info
 country=MY
-state=Asia
-locality=Kuala Lumpur
-organization=MuGiWaRaVPN
-organizationalunit=MuGiWaRaVPN
-commonname=MuGiWaRaVPN
-t.me/LUFFYxSENPAI
+state=Africa
+locality=Durban
+organization=DopekidVPN
+organizationalunit=DopekidVPN
+commonname=DopekidVPN
+email=joashsingh14@gmail.com
 
 # Password Setup
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/SasukexSakura/AutoScriptDebian10/main/Resources/Other/password"
@@ -80,7 +80,7 @@ apt -y install wget curl
 apt-get -y install libio-pty-perl libauthen-pam-perl apt-show-versions libnet-ssleay-perl
 
 # Set System Time
-ln -fs /usr/share/zoneinfo/Asia/Kuala Lumpur/etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur/etc/localtime
 
 # Set Sshd
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
