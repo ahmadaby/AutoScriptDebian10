@@ -273,7 +273,7 @@ cat > /home/vps/public_html/LUFFYxSENPAI.ovpn <<-END
 client
 dev tun
 proto tcp
-remote $MYIP 1194
+remote $MYIP 443
 http-proxy $MYIP 8080
 remote-cert-tls server
 resolv-retry infinite
