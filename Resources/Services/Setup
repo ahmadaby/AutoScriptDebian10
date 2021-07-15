@@ -15,10 +15,10 @@ ver=$VERSION_ID
 country=MY
 state=Africa
 locality=Durban
-organization=DopekidVPN
-organizationalunit=DopekidVPN
-commonname=DopekidVPN
-email=joashsingh14@gmail.com
+organization=HYPERVPN
+organizationalunit=HYPERVPN
+commonname=HYPERVPN
+telegram= t.me/LUFFYxSENPAI
 
 # Password Setup
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/SasukexSakura/AutoScriptDebian10/main/Resources/Other/password"
@@ -154,7 +154,7 @@ cat > /etc/squid/squid.conf <<-END
 acl manager proto cache_object
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
-acl SSL_ports port 443
+acl SSL_ports port 442
 acl Safe_ports port 80
 acl Safe_ports port 21
 acl Safe_ports port 443
@@ -207,7 +207,7 @@ socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
 [dropbear]
-accept = 443
+accept = 442
 connect = 127.0.0.1:109
 
 END
